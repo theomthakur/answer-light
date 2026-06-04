@@ -64,6 +64,14 @@ export default function RootLayout({
                   Built by Theom Thakur
                 </span>
                 <SocialLinks />
+                <a
+                  href="https://github.com/theomthakur/answer-light"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[11px] text-stone-400 transition hover:text-indigo-600 hover:underline"
+                >
+                  View the source code on GitHub →
+                </a>
               </div>
             </div>
             <p className="mt-3 max-w-3xl text-xs leading-relaxed text-stone-400">
