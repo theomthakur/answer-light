@@ -2,22 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f6f4;
+  color: #1c1c1a;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Subtle highlight pulse used when a response/allegation pair is linked. */
+@keyframes flash {
+  0% { background-color: rgba(99, 102, 241, 0.18); }
+  100% { background-color: transparent; }
+}
+.flash {
+  animation: flash 1.2s ease-out;
+}
+
+.legal-doc {
+  font-family: ui-serif, Georgia, "Times New Roman", serif;
 }
 
 @layer utilities {

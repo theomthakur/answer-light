@@ -1,0 +1,33 @@
+{
+  "complaintId": "cheek-v-hoonah",
+  "note": "Hand-labeled gold for a federal Section 1983 First Amendment retaliation complaint. Defendant is the School Board. 'acceptable' lists defensible responses under FRCP 8(b).",
+  "labels": [
+    { "label": "1.1", "expected": "partial", "acceptable": ["partial", "admit", "insufficient_knowledge"], "why": "Board can admit she was Superintendent; her residence is outside its knowledge." },
+    { "label": "1.2", "expected": "admit", "acceptable": ["admit", "partial"], "why": "The Board's own decision-making authority is safe to admit." },
+    { "label": "1.3", "expected": "no_response_required", "acceptable": ["no_response_required", "admit"], "why": "Venue is a legal conclusion; may admit." },
+    { "label": "2.1", "expected": "admit", "acceptable": ["admit", "partial"], "why": "Hire date and three-year term are the Board's own records." },
+    { "label": "2.2", "expected": "deny", "acceptable": ["deny"], "why": "Competent performance / 'no cause to terminate' is contested and self-serving." },
+    { "label": "2.3", "expected": "deny", "acceptable": ["deny", "insufficient_knowledge"], "why": "Characterization that the Board President overstepped — deny." },
+    { "label": "2.4", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "deny"], "why": "Her subjective discomfort in a private meeting is outside the Board's knowledge." },
+    { "label": "2.5", "expected": "deny", "acceptable": ["deny", "insufficient_knowledge"], "why": "Alleged instruction to fire employees — deny or lack knowledge." },
+    { "label": "2.6", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "deny"], "why": "Frequency of visits and her feelings — outside Board's knowledge." },
+    { "label": "2.7", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "deny"], "why": "Private December conversation — outside Board's knowledge." },
+    { "label": "2.8", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "deny"], "why": "Her call to A.A.S.B. — outside Board's knowledge." },
+    { "label": "2.9", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "deny"], "why": "One-on-one January 8 meeting content — outside Board's knowledge." },
+    { "label": "2.10", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "deny"], "why": "Her account of the January 8 meeting — outside Board's knowledge." },
+    { "label": "2.11", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "deny"], "why": "Her account of the January 8 meeting — outside Board's knowledge." },
+    { "label": "2.12", "expected": "deny", "acceptable": ["deny", "insufficient_knowledge"], "why": "Characterization that refusing to speak violated policy — deny." },
+    { "label": "2.13", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "admit", "deny"], "why": "Board members may admit receiving her email but not her characterizations." },
+    { "label": "2.14", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "deny"], "why": "Follow-up email to counsel and Houston — partly outside Board's knowledge." },
+    { "label": "2.15", "expected": "partial", "acceptable": ["partial", "deny", "admit"], "why": "May admit the February 6 termination; deny it was retaliation/caused by protected speech." },
+    { "label": "2.16", "expected": "deny", "acceptable": ["deny"], "why": "Retaliation is the contested legal conclusion at the heart of the case." },
+    { "label": "3.1", "expected": "no_response_required", "acceptable": ["no_response_required", "deny"], "why": "Incorporation paragraph; Defendant incorporates its prior responses." },
+    { "label": "3.2", "expected": "admit", "acceptable": ["admit", "partial"], "why": "The three-year employment agreement is the Board's own record." },
+    { "label": "3.3", "expected": "no_response_required", "acceptable": ["no_response_required", "deny", "admit"], "why": "Statement of constitutional law; legal conclusion." },
+    { "label": "3.4", "expected": "deny", "acceptable": ["deny", "insufficient_knowledge"], "why": "'Matters of public concern' is a legal characterization central to the claim — deny." },
+    { "label": "3.5", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "deny"], "why": "Her statements to Houston/members — partly outside Board's knowledge; deny characterization." },
+    { "label": "3.6", "expected": "deny", "acceptable": ["deny"], "why": "Deprivation/retaliation is the core legal conclusion; must deny." },
+    { "label": "3.7", "expected": "deny", "acceptable": ["deny", "no_response_required"], "why": "Damages demand; deny entitlement." },
+    { "label": "4.1", "expected": "no_response_required", "acceptable": ["no_response_required", "deny"], "why": "Jury demand requires no response." }
+  ]
+}

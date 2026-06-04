@@ -1,0 +1,155 @@
+{
+  "id": "morton-maxson-v-uw",
+  "caption": {
+    "court": "Superior Court of the State of Washington",
+    "county": "King",
+    "state": "Washington",
+    "caseNumber": "Not yet assigned (as-filed copy)",
+    "plaintiffs": ["Jeremy Morton-Maxson"],
+    "defendants": [
+      "University of Washington",
+      "State of Washington",
+      "John Does 1-10",
+      "Jane Does 1-10"
+    ],
+    "documentTitle": "Complaint for Medical Negligence Damages",
+    "jurisdiction": "state"
+  },
+  "provenance": {
+    "source": "DocumentCloud (public access)",
+    "sourceUrl": "https://www.documentcloud.org/documents/23933186",
+    "retrievedAt": "2026-06-03",
+    "note": "Real medical-negligence complaint filed 2023 in King County Superior Court, Washington, against a public university. Public OCR text from DocumentCloud; the source has heavy OCR noise and mangled decimal paragraph numbering (e.g. '11' for '1.1'), cleaned here while preserving meaning. Allegations are the plaintiff's own public filing about his care — no third-party PHI."
+  },
+  "causesOfAction": [
+    {
+      "name": "Medical Negligence (RCW 7.70)",
+      "paragraphs": ["5.1", "5.2", "5.3", "5.4"]
+    }
+  ],
+  "prayerForRelief": [
+    "Special damages in an amount to be proven at trial",
+    "General damages to be proven at the time of trial",
+    "Costs and disbursements, including attorneys' fees",
+    "Such other amounts as the Court deems just and equitable"
+  ],
+  "allegations": [
+    {
+      "label": "1.1",
+      "ordinal": 1,
+      "section": "PARTIES",
+      "type": "factual_defendant",
+      "text": "Defendant University of Washington (\"Defendant UW\") is a public university, including a medical school and medical clinics, owned and operated by Defendant State of Washington. At all times material hereto, Defendant UW employed the individual healthcare providers identified in plaintiff's medical records, and is a health care provider within the meaning of RCW 7.70.020.",
+      "ocrNoise": true
+    },
+    {
+      "label": "1.2",
+      "ordinal": 2,
+      "section": "PARTIES",
+      "type": "factual_defendant",
+      "text": "Defendants John Does 1-10 are individuals who provided care and treatment to plaintiff and whose identities will be learned during discovery.",
+      "ocrNoise": true
+    },
+    {
+      "label": "1.3",
+      "ordinal": 3,
+      "section": "PARTIES",
+      "type": "factual_defendant",
+      "text": "Defendants Jane Does 1-10 are individuals who provided care and treatment to plaintiff and whose identities will be learned during discovery.",
+      "ocrNoise": true
+    },
+    {
+      "label": "1.4",
+      "ordinal": 4,
+      "section": "PARTIES",
+      "type": "factual_plaintiff",
+      "text": "Plaintiff Jeremy Morton-Maxson is a natural person who was, at all times material hereto, a resident of King County, Washington."
+    },
+    {
+      "label": "2.1",
+      "ordinal": 5,
+      "section": "COMPLIANCE",
+      "type": "jurisdictional",
+      "text": "Pursuant to RCW 4.92.100, plaintiff delivered a tort claim notice to Defendant UW on March 14, 2023, and 60 days have elapsed. Defendant UW acknowledged receipt of plaintiff's tort claim notice on March 20, 2023. Plaintiff has also filed a declaration regarding voluntary arbitration pursuant to RCW 7.70A.020. Any statutory prerequisites to the maintenance of this action have therefore been satisfied.",
+      "ocrNoise": true
+    },
+    {
+      "label": "3.1",
+      "ordinal": 6,
+      "section": "JURISDICTION AND VENUE",
+      "type": "jurisdictional",
+      "text": "Jurisdiction and venue are proper in King County because the acts and omissions giving rise to the cause of action occurred in King County, Washington."
+    },
+    {
+      "label": "4.1",
+      "ordinal": 7,
+      "section": "FACTS",
+      "type": "factual_plaintiff",
+      "text": "On or about August 17, 2022, plaintiff Jeremy Morton-Maxson had a tumor surgically removed from his bladder at Defendant UW's Northwest Main Operating Room after presenting with blood in his urine and a family history of bladder cancer."
+    },
+    {
+      "label": "4.2",
+      "ordinal": 8,
+      "section": "FACTS",
+      "type": "factual_plaintiff",
+      "text": "Plaintiff's treating doctors noted that the tumor was \"likely cancer\" and that a pathologic review was necessary to determine the nature of the tumor."
+    },
+    {
+      "label": "4.3",
+      "ordinal": 9,
+      "section": "FACTS",
+      "type": "factual_plaintiff",
+      "text": "Defendant UW lost the surgically removed tumor prior to conducting the requisite pathologic review, and left plaintiff without a clear diagnosis or care plan."
+    },
+    {
+      "label": "4.4",
+      "ordinal": 10,
+      "section": "FACTS",
+      "type": "legal_conclusion",
+      "text": "Defendant UW failed to have and follow proper policies, procedures, and training regarding safeguarding, maintenance, custody, and transportation of plaintiff's surgically removed tumor, and failed to properly train and supervise the providers and staff involved in plaintiff's care and treatment."
+    },
+    {
+      "label": "4.5",
+      "ordinal": 11,
+      "section": "FACTS",
+      "type": "legal_conclusion",
+      "text": "As a result of the negligence of defendants, plaintiff Jeremy Morton-Maxson has suffered and continues to suffer injuries and damages that are painful, progressive, and permanent."
+    },
+    {
+      "label": "5.1",
+      "ordinal": 12,
+      "section": "NEGLIGENCE AND LIABILITY",
+      "type": "legal_conclusion",
+      "text": "Defendant UW and their employees are healthcare providers as defined by Chapter 7.70 RCW."
+    },
+    {
+      "label": "5.2",
+      "ordinal": 13,
+      "section": "NEGLIGENCE AND LIABILITY",
+      "type": "legal_conclusion",
+      "text": "Defendant UW is liable for the negligent acts and omissions of their employees, agents, and staff under the doctrine of respondeat superior."
+    },
+    {
+      "label": "5.3",
+      "ordinal": 14,
+      "section": "NEGLIGENCE AND LIABILITY",
+      "type": "legal_conclusion",
+      "text": "Defendant UW, individually and through its employees, agents, and staff, negligently failed to exercise the degree of care, skill, and learning of a reasonably prudent healthcare provider in the State of Washington, and this negligence was a proximate cause of the injuries and damages to the plaintiff."
+    },
+    {
+      "label": "5.4",
+      "ordinal": 15,
+      "section": "NEGLIGENCE AND LIABILITY",
+      "type": "legal_conclusion",
+      "text": "In the alternative, healthcare providers John Does 1-10 and Jane Does 1-10 who provided care and treatment to plaintiff were apparent or ostensible agents of Defendant UW, and Defendant UW is liable for their acts under general rules of agency.",
+      "ocrNoise": true
+    },
+    {
+      "label": "6.1",
+      "ordinal": 16,
+      "section": "DAMAGES",
+      "type": "damages",
+      "text": "As a direct and proximate result of the conduct of the above-named defendants, Jeremy Morton-Maxson incurred general and special damages in an amount to be proven at trial, including but not limited to pain, suffering, mental anguish, emotional distress, inconvenience, disability, and loss of society and companionship."
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "complaintId": "ortiz-v-walmart",
+  "note": "Hand-labeled gold standard. 'expected' is the single best response under FRCP 8(b); 'acceptable' lists defensible alternatives a reviewing attorney would not fault. Scoring credits a response if it is in the acceptable set.",
+  "labels": [
+    {
+      "label": "1",
+      "expected": "insufficient_knowledge",
+      "acceptable": [
+        "insufficient_knowledge",
+        "admit"
+      ],
+      "why": "Plaintiff's residence is not within the defendant's knowledge."
+    },
+    {
+      "label": "2",
+      "expected": "admit",
+      "acceptable": [
+        "admit",
+        "partial"
+      ],
+      "why": "Defendant's own corporate status and store location are safe to admit."
+    },
+    {
+      "label": "3",
+      "expected": "deny",
+      "acceptable": [
+        "deny",
+        "partial"
+      ],
+      "why": "Asserts negligence and causation — contested legal conclusions; deny."
+    },
+    {
+      "label": "4",
+      "expected": "no_response_required",
+      "acceptable": [
+        "no_response_required",
+        "admit"
+      ],
+      "why": "Jurisdiction/venue is a legal conclusion; may admit venue is proper."
+    },
+    {
+      "label": "5",
+      "expected": "insufficient_knowledge",
+      "acceptable": [
+        "insufficient_knowledge",
+        "deny"
+      ],
+      "why": "Plaintiff's whereabouts/activity solely within her knowledge."
+    },
+    {
+      "label": "6",
+      "expected": "insufficient_knowledge",
+      "acceptable": [
+        "insufficient_knowledge",
+        "deny"
+      ],
+      "why": "How she fell and what she slipped on — not within defendant's knowledge."
+    },
+    {
+      "label": "7",
+      "expected": "insufficient_knowledge",
+      "acceptable": [
+        "insufficient_knowledge",
+        "deny"
+      ],
+      "why": "Manner of fall and injuries — plaintiff's knowledge."
+    },
+    {
+      "label": "8",
+      "expected": "insufficient_knowledge",
+      "acceptable": [
+        "insufficient_knowledge",
+        "deny"
+      ],
+      "why": "Ambulance transport / treatment — plaintiff's knowledge."
+    },
+    {
+      "label": "9",
+      "expected": "insufficient_knowledge",
+      "acceptable": [
+        "insufficient_knowledge",
+        "deny"
+      ],
+      "why": "Medical diagnosis — plaintiff's knowledge."
+    },
+    {
+      "label": "10",
+      "expected": "insufficient_knowledge",
+      "acceptable": [
+        "insufficient_knowledge",
+        "deny"
+      ],
+      "why": "Effect on her life — plaintiff's knowledge."
+    },
+    {
+      "label": "11",
+      "expected": "no_response_required",
+      "acceptable": [
+        "no_response_required",
+        "deny"
+      ],
+      "why": "Quotes a jury instruction; legal statement, no response required."
+    },
+    {
+      "label": "12",
+      "expected": "no_response_required",
+      "acceptable": [
+        "no_response_required",
+        "deny"
+      ],
+      "why": "Quotes a jury instruction; legal statement."
+    },
+    {
+      "label": "13",
+      "expected": "deny",
+      "acceptable": [
+        "deny",
+        "no_response_required"
+      ],
+      "why": "Asserts a legal duty owed; legal conclusion — deny."
+    },
+    {
+      "label": "14",
+      "expected": "deny",
+      "acceptable": [
+        "deny"
+      ],
+      "why": "Alleges breach — the contested core; must deny."
+    },
+    {
+      "label": "15",
+      "expected": "deny",
+      "acceptable": [
+        "deny"
+      ],
+      "why": "Alleges causation; deny."
+    },
+    {
+      "label": "16",
+      "expected": "deny",
+      "acceptable": [
+        "deny",
+        "no_response_required"
+      ],
+      "why": "Duty + counterfactual causation; deny."
+    },
+    {
+      "label": "17",
+      "expected": "no_response_required",
+      "acceptable": [
+        "no_response_required",
+        "deny"
+      ],
+      "why": "Quotes UJI 13-1309; legal statement."
+    },
+    {
+      "label": "18",
+      "expected": "no_response_required",
+      "acceptable": [
+        "no_response_required",
+        "deny"
+      ],
+      "why": "Quotes UJI 13-1320; legal statement."
+    },
+    {
+      "label": "19",
+      "expected": "deny",
+      "acceptable": [
+        "deny"
+      ],
+      "why": "Alleges breach constitutes negligence; deny."
+    },
+    {
+      "label": "20",
+      "expected": "deny",
+      "acceptable": [
+        "deny"
+      ],
+      "why": "Negligence + damages causation; deny."
+    },
+    {
+      "label": "21",
+      "expected": "deny",
+      "acceptable": [
+        "deny"
+      ],
+      "why": "Liability conclusion; deny."
+    },
+    {
+      "label": "22",
+      "expected": "insufficient_knowledge",
+      "acceptable": [
+        "insufficient_knowledge",
+        "deny",
+        "partial"
+      ],
+      "why": "Itemized damages; deny liability, lack knowledge of extent."
+    },
+    {
+      "label": "23",
+      "expected": "deny",
+      "acceptable": [
+        "deny"
+      ],
+      "why": "Proximate cause conclusion; deny."
+    },
+    {
+      "label": "24",
+      "expected": "deny",
+      "acceptable": [
+        "deny"
+      ],
+      "why": "100% liability conclusion; deny."
+    }
+  ]
+}

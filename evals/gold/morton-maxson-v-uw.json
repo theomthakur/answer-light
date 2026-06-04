@@ -1,0 +1,22 @@
+{
+  "complaintId": "morton-maxson-v-uw",
+  "note": "Hand-labeled gold for a Washington medical-negligence complaint against a public university. Defendant UW can admit its own institutional facts and records; the negligence/causation conclusions are denied.",
+  "labels": [
+    { "label": "1.1", "expected": "admit", "acceptable": ["admit", "partial"], "why": "UW's own status as a public university and health care provider is safe to admit." },
+    { "label": "1.2", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "admit", "deny"], "why": "Placeholder Doe defendants; identities not yet established." },
+    { "label": "1.3", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "admit", "deny"], "why": "Placeholder Doe defendants; identities not yet established." },
+    { "label": "1.4", "expected": "insufficient_knowledge", "acceptable": ["insufficient_knowledge", "admit"], "why": "Plaintiff's county of residence is outside UW's knowledge." },
+    { "label": "2.1", "expected": "partial", "acceptable": ["partial", "admit", "insufficient_knowledge"], "why": "UW can admit it received/acknowledged the tort-claim notice; other compliance assertions it may lack knowledge of." },
+    { "label": "3.1", "expected": "no_response_required", "acceptable": ["no_response_required", "admit"], "why": "Jurisdiction/venue is a legal conclusion; may admit." },
+    { "label": "4.1", "expected": "partial", "acceptable": ["partial", "admit", "insufficient_knowledge"], "why": "UW can admit the surgery at its facility from its records; lacks knowledge of plaintiff's symptoms/family history." },
+    { "label": "4.2", "expected": "partial", "acceptable": ["partial", "admit", "insufficient_knowledge", "deny"], "why": "What treating doctors noted is in UW's records; characterization may be admitted in part or denied." },
+    { "label": "4.3", "expected": "deny", "acceptable": ["deny", "insufficient_knowledge"], "why": "The core contested fact (losing the tumor / leaving plaintiff without a plan) — deny." },
+    { "label": "4.4", "expected": "deny", "acceptable": ["deny"], "why": "Failure of policies/training is a contested legal conclusion." },
+    { "label": "4.5", "expected": "deny", "acceptable": ["deny", "insufficient_knowledge"], "why": "Negligence and resulting permanent injury — deny." },
+    { "label": "5.1", "expected": "no_response_required", "acceptable": ["no_response_required", "admit", "deny"], "why": "Statement of statutory status; legal conclusion (UW may admit it is a provider)." },
+    { "label": "5.2", "expected": "deny", "acceptable": ["deny"], "why": "Respondeat superior liability is a contested legal conclusion." },
+    { "label": "5.3", "expected": "deny", "acceptable": ["deny"], "why": "Negligence and proximate cause — the heart of the claim; deny." },
+    { "label": "5.4", "expected": "deny", "acceptable": ["deny", "insufficient_knowledge"], "why": "Alternative agency-liability theory — deny." },
+    { "label": "6.1", "expected": "deny", "acceptable": ["deny", "insufficient_knowledge"], "why": "Damages causation/extent — deny liability; lack knowledge of extent." }
+  ]
+}

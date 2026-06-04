@@ -1,0 +1,222 @@
+{
+  "id": "ortiz-v-walmart",
+  "caption": {
+    "court": "First Judicial District Court",
+    "county": "Rio Arriba",
+    "state": "New Mexico",
+    "caseNumber": "D-117-CV-2024-00324",
+    "judge": "Bryan Biedscheid",
+    "plaintiffs": [
+      "Ursulita R. Ortiz"
+    ],
+    "defendants": [
+      "Wal-Mart Stores, Inc."
+    ],
+    "documentTitle": "Complaint for Personal Injury, Negligence and Damages",
+    "jurisdiction": "state"
+  },
+  "provenance": {
+    "source": "DocumentCloud (public access)",
+    "sourceUrl": "https://www.documentcloud.org/documents/25204540-complaint-for-personal-injury-negligence-and-damages",
+    "retrievedAt": "2026-06-03",
+    "note": "Real complaint filed 2024-09-10 in NM First Judicial District Court. Text is the public OCR layer from DocumentCloud; lightly cleaned for OCR artifacts while preserving meaning. No PHI — public court record."
+  },
+  "causesOfAction": [
+    {
+      "name": "Negligence (Premises Liability)",
+      "paragraphs": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ]
+    }
+  ],
+  "prayerForRelief": [
+    "Judgment in Plaintiff's favor for the injuries, damages, and losses she has suffered",
+    "Costs and applicable fees incurred in pursuit of this action",
+    "Such other and further relief and compensation as the Court deems proper"
+  ],
+  "allegations": [
+    {
+      "label": "1",
+      "ordinal": 1,
+      "section": "JURISDICTION",
+      "type": "factual_plaintiff",
+      "text": "At all times material to the incidents complained of herein, Plaintiff Ortiz was a permanent resident of the Village of Chimayo, County of Rio Arriba, State of New Mexico."
+    },
+    {
+      "label": "2",
+      "ordinal": 2,
+      "section": "JURISDICTION",
+      "type": "factual_defendant",
+      "text": "At all times material to the incidents complained of herein, Defendant Wal-Mart was an active Delaware Corporation doing business in the State of New Mexico and, in particular, in the City of Espanola, County of Rio Arriba and State of New Mexico, as Wal-Mart, located at 1610 North Riverside Drive, Espanola, New Mexico 87532."
+    },
+    {
+      "label": "3",
+      "ordinal": 3,
+      "section": "JURISDICTION",
+      "type": "legal_conclusion",
+      "text": "Plaintiff's injuries resulted from Defendant's negligence, which occurred in the City of Espanola, County of Rio Arriba, State of New Mexico, on September 25, 2021.",
+      "ocrNoise": false
+    },
+    {
+      "label": "4",
+      "ordinal": 4,
+      "section": "JURISDICTION",
+      "type": "jurisdictional",
+      "text": "Thus, with both the Plaintiff and the Defendant being present in Rio Arriba County, New Mexico, and the incidents complained of herein occurring in Rio Arriba County, jurisdiction and venue are proper in the First Judicial District Court, in and for Rio Arriba County, State of New Mexico."
+    },
+    {
+      "label": "5",
+      "ordinal": 5,
+      "section": "BACKGROUND",
+      "type": "factual_plaintiff",
+      "text": "On September 25, 2021, at between 4:00 p.m. and 5:00 p.m. Mountain Time, the Plaintiff, Ursulita R. Ortiz, was shopping at the Wal-Mart in Espanola, New Mexico, located at 1610 N. Riverside Drive, Espanola, New Mexico 87532."
+    },
+    {
+      "label": "6",
+      "ordinal": 6,
+      "section": "BACKGROUND",
+      "type": "factual_plaintiff",
+      "text": "After entering the front entrance of the Wal-Mart, and on her way to the interior of the store, Ms. Ortiz slipped on an unseen piece of plastic which she believed to be a part of a broken plastic hanger."
+    },
+    {
+      "label": "7",
+      "ordinal": 7,
+      "section": "BACKGROUND",
+      "type": "factual_plaintiff",
+      "text": "As the result of slipping on the broken piece of plastic, Ms. Ortiz fell on her left side, injuring her left shoulder and arm, hip and back, all on her left side."
+    },
+    {
+      "label": "8",
+      "ordinal": 8,
+      "section": "BACKGROUND",
+      "type": "factual_plaintiff",
+      "text": "Following the fall, Ms. Ortiz was unable to get herself up from the floor and was transported by ambulance to the Emergency Room at the Presbyterian Medical Center in Espanola, New Mexico, for diagnoses and treatment."
+    },
+    {
+      "label": "9",
+      "ordinal": 9,
+      "section": "BACKGROUND",
+      "type": "factual_plaintiff",
+      "text": "Plaintiff Ortiz was informed that she had suffered a possible torn left rotator cuff as a result of the fall at Wal-Mart, which required extensive medical treatment and caused the Plaintiff to suffer extreme pain and loss of range of motion on her left side."
+    },
+    {
+      "label": "10",
+      "ordinal": 10,
+      "section": "BACKGROUND",
+      "type": "factual_plaintiff",
+      "text": "As a result of her injuries, Plaintiff Ursulita Ortiz was unable to lie down for long periods of time or put any weight on her left side, which made it very difficult for Ms. Ortiz to sleep, severely and negatively impacting her health and quality of life."
+    },
+    {
+      "label": "11",
+      "ordinal": 11,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "New Mexico Uniform Jury Instruction Section 13-1604 states: \"Every person has a duty to exercise ordinary care for the safety of the person and property of others.\"",
+      "ocrNoise": true
+    },
+    {
+      "label": "12",
+      "ordinal": 12,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "New Mexico Uniform Jury Instruction Section 13-1603 defines ordinary care as \"that care which a reasonably prudent person would use in the conduct of the person's own affairs. What constitutes 'ordinary care' varies with the nature of what is being done. As the risk of danger that should reasonably be foreseen increases, the amount of care required also increases. In deciding whether ordinary care has been used, the conduct in question must be considered in light of all the surrounding circumstances.\"",
+      "ocrNoise": true
+    },
+    {
+      "label": "13",
+      "ordinal": 13,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "Defendant Wal-Mart Stores, Inc. had an affirmative legal duty to its invitees, including Plaintiff Ursulita Ortiz, to provide a safe environment for its patrons."
+    },
+    {
+      "label": "14",
+      "ordinal": 14,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "Defendant breached its duty of due care to Plaintiff Ortiz by not providing a safe environment for its visitors and customers."
+    },
+    {
+      "label": "15",
+      "ordinal": 15,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "Defendant's breach of its duty to provide a safe premises for Plaintiff Ursulita Ortiz to conduct her shopping was the direct and proximate cause of the Plaintiff's injuries and damages."
+    },
+    {
+      "label": "16",
+      "ordinal": 16,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "Defendant had an affirmative legal duty to maintain and provide a safe premises for its invitee, Plaintiff Ursulita Ortiz, and if the Defendant had provided a safe premises for Plaintiff Ursulita Ortiz, Plaintiff Ursulita Ortiz would not have suffered the serious injuries she suffered on September 25, 2021 at the Wal-Mart Store in Espanola, New Mexico."
+    },
+    {
+      "label": "17",
+      "ordinal": 17,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "Defendant had an affirmative legal duty to use ordinary care to keep the premises safe for use by a visitor, pursuant to NM UJI 13-1309, which provides: \"An [owner] [occupant] owes a visitor the duty to use ordinary care to keep the premises safe for use by the visitor, whether or not a dangerous condition is obvious.\"",
+      "ocrNoise": true
+    },
+    {
+      "label": "18",
+      "ordinal": 18,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "Furthermore, NM UJI 13-1320 provides for the duty to a visitor regarding the acts of third persons, under which an owner's or occupant's breach of the duty to use ordinary care is compared with the conduct of any third person who actually caused the injury in order to determine the owner's or occupant's proportionate degree of fault.",
+      "ocrNoise": true
+    },
+    {
+      "label": "19",
+      "ordinal": 19,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "Accordingly, Defendant Wal-Mart, in this case, breached its duty of care to the Plaintiff by failing to take necessary precautions to prevent the injury to its visitors, including Plaintiff Ortiz, and such breach of Wal-Mart's legal duty of care constitutes negligence."
+    },
+    {
+      "label": "20",
+      "ordinal": 20,
+      "section": "PERSONAL INJURY AND NEGLIGENCE",
+      "type": "legal_conclusion",
+      "text": "Thus, due to the injuries suffered by Plaintiff, Ursulita Ortiz, as the result of Defendant Wal-Mart Stores, Inc.'s negligence, Plaintiff Ortiz suffered extreme pain and suffering and damages and losses."
+    },
+    {
+      "label": "21",
+      "ordinal": 21,
+      "section": "DAMAGES",
+      "type": "legal_conclusion",
+      "text": "The Defendant is thus liable to the Plaintiff for its breach of duties to Plaintiff Ortiz and liable to compensate Plaintiff Ortiz for her injuries, damages, and/or losses."
+    },
+    {
+      "label": "22",
+      "ordinal": 22,
+      "section": "DAMAGES",
+      "type": "damages",
+      "text": "As a result of Defendant's negligence, Plaintiff, Ursulita R. Ortiz, has suffered damages and losses, including, but not limited to, the following: (A) Past Medical Expenses; (B) Future Medical Expenses; (C) Loss of Income; (D) Future Lost Income and Loss of Earning Capacity; (E) Past Pain and Suffering; (F) Future Pain and Suffering; (G) Past Loss of Enjoyment; (H) Future Loss of Enjoyment; and (I) Permanent Injury."
+    },
+    {
+      "label": "23",
+      "ordinal": 23,
+      "section": "DAMAGES",
+      "type": "legal_conclusion",
+      "text": "As alleged herein, Defendant's breach of its duty(ies) was the direct and proximate cause of Plaintiff's injuries, damages, and losses."
+    },
+    {
+      "label": "24",
+      "ordinal": 24,
+      "section": "DAMAGES",
+      "type": "legal_conclusion",
+      "text": "Thus, Defendant, Wal-Mart Stores, Inc. is liable for its breach of duty(ies) and liable to compensate Plaintiff at the rate of 100% for her injuries, damages, and/or losses as described above."
+    }
+  ]
+}

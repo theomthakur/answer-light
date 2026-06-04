@@ -1,0 +1,222 @@
+{
+  "id": "cheek-v-hoonah",
+  "caption": {
+    "court": "United States District Court, District of Alaska",
+    "state": "Alaska",
+    "caseNumber": "1:24-cv (number partially illegible in source)",
+    "plaintiffs": ["Helen Cheek"],
+    "defendants": ["Hoonah City School District Board"],
+    "documentTitle": "Complaint for Damages",
+    "jurisdiction": "federal"
+  },
+  "provenance": {
+    "source": "DocumentCloud (public access)",
+    "sourceUrl": "https://www.documentcloud.org/documents/25166139",
+    "retrievedAt": "2026-06-03",
+    "note": "Real federal civil-rights complaint (42 U.S.C. Section 1983, First Amendment retaliation) filed in U.S. District Court for the District of Alaska, 2024. Public OCR text from DocumentCloud, lightly cleaned. Paragraphs use decimal labels (1.1, 2.16, 3.7) — a different numbering scheme from the Ortiz case. No PHI; public officials and public record."
+  },
+  "causesOfAction": [
+    {
+      "name": "42 U.S.C. Section 1983 — First Amendment Retaliation & Due Process",
+      "paragraphs": ["3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7"]
+    }
+  ],
+  "prayerForRelief": [
+    "Full payment of all compensation and benefits Plaintiff would have earned as Superintendent, including lost wages and future lost wages and benefits for the full three-year contract term",
+    "Payment for all emotional distress, future employment losses, reputational losses, and penalties permitted under Section 1983",
+    "Reasonable attorney's fees under 42 U.S.C. Sections 1983 and 1988",
+    "Such other relief as the Court deems just and proper"
+  ],
+  "allegations": [
+    {
+      "label": "1.1",
+      "ordinal": 1,
+      "section": "JURISDICTION AND VENUE",
+      "type": "factual_plaintiff",
+      "text": "At all relevant times, Plaintiff Helen Cheek was a resident of Hoonah, Alaska, located within the First Judicial District, State of Alaska, and was employed as Superintendent of the Hoonah City School District."
+    },
+    {
+      "label": "1.2",
+      "ordinal": 2,
+      "section": "JURISDICTION AND VENUE",
+      "type": "factual_defendant",
+      "text": "At all relevant times, Defendant Hoonah City School District Board had final decision-making authority over the Hoonah City School District, a public school within the First Judicial District, State of Alaska."
+    },
+    {
+      "label": "1.3",
+      "ordinal": 3,
+      "section": "JURISDICTION AND VENUE",
+      "type": "jurisdictional",
+      "text": "Venue is proper in the First Judicial District."
+    },
+    {
+      "label": "2.1",
+      "ordinal": 4,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_defendant",
+      "text": "On May 11, 2023, Plaintiff Helen Cheek was hired as the Superintendent for the Hoonah City School District, serving a three-year term covering July 1, 2023 through June 30, 2026."
+    },
+    {
+      "label": "2.2",
+      "ordinal": 5,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "legal_conclusion",
+      "text": "During the duration of her employment, Helen Cheek performed the critical elements of her job duties in a professional and highly competent manner, providing no cause for the Hoonah Board to terminate her employment."
+    },
+    {
+      "label": "2.3",
+      "ordinal": 6,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "Despite the high quality of Superintendent Cheek's work, she had a conflict with Harold Houston, the Hoonah Board's President, who she alleges continually overstepped the legal constraints of his authority over the Hoonah District."
+    },
+    {
+      "label": "2.4",
+      "ordinal": 7,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "The first time Helen Cheek met Harold Houston alone as board chair, she was in her office at the Hoonah City School District administrative offices, and Mr. Houston came in to talk and welcome her. The two spoke for a couple of hours, and Superintendent Cheek alleges she felt very uncomfortable about Mr. Houston stepping over the lines as board chair."
+    },
+    {
+      "label": "2.5",
+      "ordinal": 8,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "During her initial meeting with Harold Houston, Plaintiff alleges that he instructed her to fire two District employees — the Financial Manager and the Arts Grant Director — one of whom she had not yet met. She responded that she would look into what was happening."
+    },
+    {
+      "label": "2.6",
+      "ordinal": 9,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "Mr. Houston set up one-hour Monday morning meetings between himself and Superintendent Cheek, which she alleges transformed into Mr. Houston coming into her office three or four times a week for hours, leaving her feeling harassed and very uncomfortable."
+    },
+    {
+      "label": "2.7",
+      "ordinal": 10,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "In December 2023, Superintendent Cheek alleges she tried to tell Mr. Houston she was uncomfortable with his visits, and that he laughed her concerns off while appearing angry."
+    },
+    {
+      "label": "2.8",
+      "ordinal": 11,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "On the morning of January 8, 2024, before Mr. Houston's arrival, Superintendent Cheek called the Association of Alaska School Boards (A.A.S.B.) for support, and was told to point out the policy violations to Mr. Houston."
+    },
+    {
+      "label": "2.9",
+      "ordinal": 12,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "When Mr. Houston arrived at 9:00 a.m. on January 8, 2024, Superintendent Cheek had written the board policies she alleges he had violated on her whiteboard, and told him she was a seasoned superintendent who did not need him to tell her how to do her job, including that forming a facilities committee independent of the School Board violated policy."
+    },
+    {
+      "label": "2.10",
+      "ordinal": 13,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "During the January 8, 2024 meeting, Superintendent Cheek alleges she pointed out that Mr. Houston had no authority to independently enter the school building to conduct an inspection, something she alleges he did when she was away."
+    },
+    {
+      "label": "2.11",
+      "ordinal": 14,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "During the January 8, 2024 meeting, Superintendent Cheek alleges she also informed Mr. Houston that he did not have authority to independently direct the district's Financial Manager, after which she alleges Mr. Houston left her office in an angry manner."
+    },
+    {
+      "label": "2.12",
+      "ordinal": 15,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "On January 11, 2024, Superintendent Cheek alleges she next encountered Mr. Houston during a School Board work session, during which he refused to speak with her, which she alleges violated board policy."
+    },
+    {
+      "label": "2.13",
+      "ordinal": 16,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "On January 12, 2024, Superintendent Cheek sent an email to the district attorney, Allen Clendaniel, and to the members of the Hoonah School District Board, attaching a letter identifying the board policy violations and conduct she attributed to Board President Harold Houston."
+    },
+    {
+      "label": "2.14",
+      "ordinal": 17,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "On January 18, 2024, Superintendent Cheek sent a follow-up email to the district attorney sharing another letter she sent to Harold Houston, in which she alleges she identified that her complaints related solely to the public-policy issue concerning his violation of school board policies and her duty to protect employees' confidential records."
+    },
+    {
+      "label": "2.15",
+      "ordinal": 18,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "factual_plaintiff",
+      "text": "On February 6, 2024, district attorney Allen Clendaniel sent Superintendent Cheek an email informing her that she had been terminated by the Board without cause. Plaintiff alleges the termination was directly and proximately caused by her exercise of her First Amendment right to object to Mr. Houston's conduct."
+    },
+    {
+      "label": "2.16",
+      "ordinal": 19,
+      "section": "FACTUAL ALLEGATIONS",
+      "type": "legal_conclusion",
+      "text": "Rather than accept the protected speech that Superintendent Cheek made to the Board, the Board instead opted to retaliate against her for the exercise of her rights."
+    },
+    {
+      "label": "3.1",
+      "ordinal": 20,
+      "section": "CLAIM FOR RELIEF — 42 U.S.C. 1983",
+      "type": "incorporation",
+      "text": "Plaintiff Helen Cheek incorporates all of the facts and allegations within the paragraphs listed above, 2.1 through 2.16.",
+      "incorporatesRefs": ["2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "2.9", "2.10", "2.11", "2.12", "2.13", "2.14", "2.15", "2.16"]
+    },
+    {
+      "label": "3.2",
+      "ordinal": 21,
+      "section": "CLAIM FOR RELIEF — 42 U.S.C. 1983",
+      "type": "factual_defendant",
+      "text": "Plaintiff states that she agreed to employment as Superintendent for the Hoonah City School District for a three-year period between July 1, 2023 and June 30, 2026."
+    },
+    {
+      "label": "3.3",
+      "ordinal": 22,
+      "section": "CLAIM FOR RELIEF — 42 U.S.C. 1983",
+      "type": "legal_conclusion",
+      "text": "Plaintiff states that as a public employee she was entitled to all the protections afforded by the First Amendment to the United States Constitution, as applied to the states through the Fourteenth Amendment."
+    },
+    {
+      "label": "3.4",
+      "ordinal": 23,
+      "section": "CLAIM FOR RELIEF — 42 U.S.C. 1983",
+      "type": "factual_plaintiff",
+      "text": "Plaintiff states that she spoke on several occasions on matters of public concern to the Hoonah City School District Board and to its President, Harold Houston, beginning January 8, 2024 and continuing through January 2024, ending with her termination."
+    },
+    {
+      "label": "3.5",
+      "ordinal": 24,
+      "section": "CLAIM FOR RELIEF — 42 U.S.C. 1983",
+      "type": "factual_plaintiff",
+      "text": "Plaintiff states that on several occasions she made clear to Board President Harold Houston and to the other members of the Board that, based on her understanding of Alaska Statutes and District Board Policies, Mr. Houston was violating board policies and state and federal law in his interactions with her."
+    },
+    {
+      "label": "3.6",
+      "ordinal": 25,
+      "section": "CLAIM FOR RELIEF — 42 U.S.C. 1983",
+      "type": "legal_conclusion",
+      "text": "Plaintiff states that the Board, via vote among its members, deprived and retaliated against her based on her First and Fourteenth Amendment rights when it terminated her employment without stated cause within weeks of her engagement in public-policy discussions."
+    },
+    {
+      "label": "3.7",
+      "ordinal": 26,
+      "section": "CLAIM FOR RELIEF — 42 U.S.C. 1983",
+      "type": "damages",
+      "text": "As damages for the conduct alleged above, Plaintiff seeks all remedies available under 42 U.S.C. Section 1983, including but not limited to payment of all compensation, future pay, penalties, liquidated damages, emotional harm, and attorney fees."
+    },
+    {
+      "label": "4.1",
+      "ordinal": 27,
+      "section": "JURY DEMAND",
+      "type": "legal_conclusion",
+      "text": "Plaintiff demands a trial by jury on all claims and issues for which she has a right to a jury."
+    }
+  ]
+}
