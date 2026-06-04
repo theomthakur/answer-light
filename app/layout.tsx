@@ -61,7 +61,7 @@ export default function RootLayout({
               </div>
               <div className="flex flex-col items-end gap-1.5">
                 <span className="text-[11px] uppercase tracking-wider text-stone-400">
-                  Built by Theom Thakur
+                  Built by Om Thakur
                 </span>
                 <SocialLinks />
                 <a
