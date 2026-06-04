@@ -59,6 +59,9 @@ export default function CaseWorkspace({ complaint }: { complaint: Complaint }) {
   const [result, setResult] = useState<ApiResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [errorKind, setErrorKind] = useState<"rate_limited" | "generic">(
+    "generic",
+  );
   const [hovered, setHovered] = useState<string | null>(null);
   const [tab, setTab] = useState<"review" | "document">("review");
   const [overrides, setOverrides] = useState<Record<string, ResponseType>>({});
@@ -69,6 +72,7 @@ export default function CaseWorkspace({ complaint }: { complaint: Complaint }) {
   async function generate() {
     setLoading(true);
     setError(null);
+    setErrorKind("generic");
     setOverrides({});
     try {
       const res = await fetch("/api/generate", {
@@ -77,7 +81,10 @@ export default function CaseWorkspace({ complaint }: { complaint: Complaint }) {
         body: JSON.stringify({ complaintId: complaint.id }),
       });
       const data = await res.json();
-      if (!res.ok) throw new Error(data.message || data.error || "Failed");
+      if (!res.ok) {
+        if (data.error === "rate_limited") setErrorKind("rate_limited");
+        throw new Error(data.message || data.error || "Failed");
+      }
       setResult(data as ApiResult);
       setTab("review");
     } catch (e) {
@@ -165,11 +172,26 @@ export default function CaseWorkspace({ complaint }: { complaint: Complaint }) {
         </button>
       </div>
 
-      {error && (
-        <div className="mb-4 rounded-lg border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
-          {error}
-        </div>
-      )}
+      {error &&
+        (errorKind === "rate_limited" ? (
+          <div className="mb-4 flex items-start gap-3 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+            <span className="mt-0.5 text-lg leading-none">🌤️</span>
+            <div>
+              <div className="font-semibold text-amber-900">
+                Free API limit reached for today
+              </div>
+              <p className="mt-1 leading-relaxed">
+                This is an academic / portfolio project running on free AI APIs,
+                and the daily free-tier limit has been hit. Please check back
+                later — the free quota resets each day. Thanks for understanding!
+              </p>
+            </div>
+          </div>
+        ) : (
+          <div className="mb-4 rounded-lg border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
+            {error}
+          </div>
+        ))}
 
       {result && <DeadlineBanner deadline={result.answer.deadline} />}
       {result && (
