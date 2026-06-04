@@ -5,9 +5,27 @@ import { Logo } from "@/components/Logo";
 import { SocialLinks } from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://answer-light.vercel.app"),
   title: "Answerlight — Draft the Answer. Trust it in minutes.",
   description:
     "An academic / portfolio project: an AI agent that drafts a defendant's Answer to a real civil complaint, grounded paragraph-by-paragraph and validated in code. Not legal advice.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Answerlight — Draft the Answer. Trust it in minutes.",
+    description:
+      "An AI agent that drafts a defendant's Answer to a real civil complaint, grounded paragraph-by-paragraph and validated in code. An academic / portfolio project — not legal advice.",
+    url: "https://answer-light.vercel.app",
+    siteName: "Answerlight",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Answerlight — Draft the Answer. Trust it in minutes.",
+    description:
+      "An AI agent that drafts a defendant's Answer to a real civil complaint, grounded and validated in code. Academic / portfolio project — not legal advice.",
+  },
 };
 
 export default function RootLayout({

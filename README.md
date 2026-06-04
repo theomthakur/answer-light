@@ -21,7 +21,7 @@ verified in code.
 > of any kind arising from its use or from reliance on its AI-generated output.
 > Use is entirely at your own risk.
 
-**[Live demo](#)** · **[System design](docs/ARCHITECTURE.md)** · **[How it's evaluated](#evaluation)**
+**[Live demo](https://answer-light.vercel.app/)** · **[System design](docs/ARCHITECTURE.md)** · **[How it's evaluated](#evaluation)**
 
 </div>
 
