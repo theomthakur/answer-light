@@ -21,7 +21,8 @@ export default function RootLayout({
           <span className="font-semibold text-amber-300">Academic project</span>{" "}
           — a portfolio demo, not a law firm or a legal service. Outputs are
           AI-generated drafts on public court records,{" "}
-          <span className="text-stone-100">not legal advice</span>.
+          <span className="text-stone-100">not legal advice</span>. Provided “as
+          is,” with no warranty and no liability — use at your own risk.
         </div>
 
         <AppHeader />
@@ -54,6 +55,14 @@ export default function RootLayout({
               are real public court records used for demonstration; generated
               Answers are illustrative drafts, contain no legal advice, and must
               be reviewed by a licensed attorney before any use.
+            </p>
+            <p className="mt-2 max-w-3xl text-xs leading-relaxed text-stone-400">
+              This project is provided “as is,” without any warranty of any kind,
+              express or implied. The author accepts no responsibility or
+              liability for any errors, omissions, or for any loss, damage, or
+              consequences of any kind arising from the use of, or reliance on,
+              this project or its AI-generated output. Use is entirely at your
+              own risk.
             </p>
           </div>
         </footer>

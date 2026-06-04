@@ -14,6 +14,12 @@ verified in code.
 > **Academic / portfolio project** — a demo of engineering and product judgment.
 > Not a law firm, not a legal service, not legal advice. Complaints shown are real
 > public court records; generated Answers require attorney review.
+>
+> **Disclaimer & no liability:** This project is provided "as is," without warranty
+> of any kind, express or implied. The author accepts **no responsibility or
+> liability** for any errors, omissions, or for any loss, damage, or consequences
+> of any kind arising from its use or from reliance on its AI-generated output.
+> Use is entirely at your own risk.
 
 **[Live demo](#)** · **[System design](docs/ARCHITECTURE.md)** · **[How it's evaluated](#evaluation)**
 
