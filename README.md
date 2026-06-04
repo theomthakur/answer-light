@@ -9,7 +9,7 @@ responding to every numbered allegation, pleading the affirmative defenses, and
 **grounding every reply to the exact paragraph it answers**, with the grounding
 verified in code.
 
-`Next.js` · `TypeScript` · `Vercel AI SDK` · `Gemini 2.5 Flash (free tier) / Claude` · `Zod` · `Vitest`
+`Next.js` · `TypeScript` · `Vercel AI SDK` · `Gemini 2.5 Flash-Lite (free tier) / Claude` · `Zod` · `Vitest`
 
 > **Academic / portfolio project** — a demo of engineering and product judgment.
 > Not a law firm, not a legal service, not legal advice. Complaints shown are real
@@ -24,6 +24,22 @@ verified in code.
 **[Live demo](https://answer-light.vercel.app/)** · **[System design](docs/ARCHITECTURE.md)** · **[How it's evaluated](#evaluation)**
 
 </div>
+
+---
+
+## For reviewers (60-second path)
+
+- **Try it live:** https://answer-light.vercel.app/ → pick a case → *Draft the Answer*.
+- **Source:** you're here. Start with `docs/ARCHITECTURE.md`, then `lib/agent/pipeline.ts` and `lib/schemas.ts`.
+- **Run it yourself:**
+  ```bash
+  npm install
+  cp .env.local.example .env.local     # add a free Gemini key (no card)
+  npm run dev                          # http://localhost:3000
+  npm test                             # 50 tests, deterministic core
+  npm run eval                         # real pipeline vs. hand-labeled gold
+  ```
+- **Where the judgment lives:** `lib/agent/classify.ts` (FRCP 8(b) heuristics) and `lib/agent/reconcile.ts` (the deterministic safety net that guarantees a grounded, never-accidentally-admitting Answer).
 
 ---
 
@@ -124,8 +140,9 @@ docs/ARCHITECTURE.md       system design + diagrams
 ### Provider-agnostic by design
 
 Every model call routes through `lib/llm/provider.ts`. The demo runs on **Gemini
-2.5 Flash** (free tier, no card); Glade's stack is **Claude** — so swapping the
-whole pipeline is one env var, with no change to `lib/agent/*`:
+2.5 Flash-Lite** (free tier, no card; higher free-quota than full Flash); Glade's
+stack is **Claude** — so swapping the whole pipeline is one env var, with no
+change to `lib/agent/*`:
 
 ```bash
 LLM_PROVIDER=anthropic ANTHROPIC_API_KEY=...
